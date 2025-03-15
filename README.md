@@ -11,14 +11,14 @@ I wanted to explore **unsupervised learning** and understand how **Self-Organizi
 - How to use **tqdm** to track the progress of pixel clustering.
 - How to visualize the **distribution of dominant colors** in an image.
 
-## 🎯 Goals of This Project
+## Goals of This Project
 
 1. **Apply Self-Organizing Maps (SOM) to an image** to group similar colors.
 2. **Maintain the quality of the original image** while generating a clustered version.
 3. **Analyze color clusters** using a **color density plot** to understand dominant shades.
 4. **Iterate over training steps** to observe how the clustering changes over time.
 
-## 🖼️ Results and Visualizations
+## Results and Visualizations
 
 ### **Original vs. Quantized Image**
 | Original Image | Quantized Image |
@@ -29,7 +29,7 @@ I wanted to explore **unsupervised learning** and understand how **Self-Organizi
 This plot shows how frequently each color appears in the image.
 ![Color Density](assets/color_density.png)
 
-## 🔍 What Could Be Improved?
+## What Could Be Improved?
 
 While the SOM model works well for clustering, there are some areas for improvement:
 - **Optimization of SOM Parameters**: Adjusting the **grid size, learning rate, and training steps** could improve clustering.
@@ -39,7 +39,7 @@ While the SOM model works well for clustering, there are some areas for improvem
   - **Gaussian Mixture Models (GMM)**: Can **model color distributions more accurately** compared to SOM.
   - **DBSCAN**: Could be useful to detect dominant color regions **without predefined cluster sizes**.
 
-## 🔧 Possible Algorithmic Enhancements
+## Possible Algorithmic Enhancements
 
 | Algorithm | Pros | Cons |
 |-----------|------|------|
@@ -48,8 +48,3 @@ While the SOM model works well for clustering, there are some areas for improvem
 | **Gaussian Mixture Models (GMM)** | Can model complex distributions | More computationally intensive |
 | **DBSCAN** | Detects arbitrary-shaped clusters | Struggles with dense, overlapping colors |
 
-## 📌 Future Improvements
-
-- Experiment with different **distance metrics** for SOM clustering.
-- Implement **real-time updates** while training SOM to visualize color clustering dynamically.
-- Compare **PSNR (Peak Signal-to-Noise Ratio)** of the quantized image to evaluate quality loss.
