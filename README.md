@@ -1,10 +1,10 @@
 # Image Color Clustering using Self-Organizing Maps (SOM)
 
-## 🚀 Why I Made This Project
+## Why I Made This Project
 
 I wanted to explore **unsupervised learning** and understand how **Self-Organizing Maps (SOM)** can be used to cluster colors in an image. This project helped me visualize how a **neural network-based clustering algorithm** can categorize pixels based on color similarity.
 
-## 📚 What I Learned
+## What I Learned
 
 - How **Self-Organizing Maps (SOMs)** work and their application in clustering.
 - How to preprocess and normalize image data for machine learning models.
@@ -23,7 +23,7 @@ I wanted to explore **unsupervised learning** and understand how **Self-Organizi
 ### **Original vs. Quantized Image**
 | Original Image | Quantized Image |
 |---------------|----------------|
-| ![Original](assets/original.jpg) | ![Quantized](assets/quantized.jpg) |
+| ![Original](assets/original.png) | ![Quantized](assets/quantized.png) |
 
 ### **Color Density Distribution**
 This plot shows how frequently each color appears in the image.
